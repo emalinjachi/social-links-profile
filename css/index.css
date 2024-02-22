@@ -1,0 +1,58 @@
+@font-face{
+    font-family:'inter'; src: url('fonts/Inter-VariableFont_slnt,wght.ttf') format('ttf');
+    font-weight: 400;
+ }
+  body{
+    background-color: hsl(0, 0%, 8%);
+    padding-top: 50px;
+    font-family: inter;
+  }
+  #card{
+  width: 375px;
+  border-radius: 10px;
+  padding: 30px;
+  margin: auto;
+  color: white;
+  text-align: center;
+  background-color: hsl(0, 0%, 12%);
+}
+#profile{
+  text-align: center;
+}
+h1{
+    font-size: 1.5em;
+}
+img{
+  border-radius: 150px;
+}
+h4{
+  color: hsl(75, 94%, 57%);
+}
+p{
+  font-size: 14px;
+}
+#links{
+
+}
+#links span a{
+  display: inline-block;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  text-decoration: none;
+  width: 200px;
+  font-weight: 300;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+}
+#links span :hover{
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+.attribution{
+  margin: 10px 0px;
+}
+.attribution a{
+    text-decoration: none;
+    color: hsl(75, 94%, 57%);
+}
